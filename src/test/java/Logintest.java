@@ -32,6 +32,7 @@ public class Logintest {
 		driver.findElement(By.id("next")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.id("Passwd")).sendKeys("mynewpswd123");
+		driver.findElement(By.id("signIn")).click();
 		
 		
 	}
